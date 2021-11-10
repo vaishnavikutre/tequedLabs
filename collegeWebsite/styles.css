@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+strong {
+  color: green;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+.navbar-brand {
+  
+  padding: 10px;
+  margin-top: -30px;
+  font-size: 3em;
+  
+  
+}
+.navbar-nav {
+  padding: 15px 8px 2px;
+  margin-top: -15px;
+  top: -68%;
+  color: beige;
+
+}
+.nav-link {
+  font-weight: bold;
+  color: rgb(152, 28, 177);
+  font-style: oblique;
+  margin-left: 15px;
+  
+}
+.nav-link:hover {
+  background-color: #db9834;
+  transform: translateY(-20%);
+  transition: 0.6s ease;
+  border-radius: 20px;
+}
+
+
+/* carousal start */
+.carousel-item {
+  height: 100vh;
+}
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  
+}
+
+.carousel-caption {
+  margin-bottom: 40px;
+  left: 375px;
+  width: 50%;
+  text-align: center;
+}
+
+.fsize {
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+/* carousal end */
+
+/* About our university */
+.AboutContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 100px;
+}
+.embeded {
+  margin: 20px;
+}
+.embededContainer {
+  margin: 20px;
+}
+/* cards */
+.card-groups {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cards1 {
+  margin-top: 100px;
+  height: 300px;
+  width: 400px;
+}
+.cards {
+  background-image: url("images/cards-bg.jpg");
+  height: 800px;
+  width: 100%;
+}
+.c-item {
+  color: white;
+  text-align: center;
+}
+.c-item1 {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+.hovering1:hover {
+  font-weight: bold;
+  color: red;
+  transform: scaleZ();
+}
+
+/* card  to choose */
+.chooseContainer {
+  display: flex;
+  flex-direction: row;
+}
+.whytochoose {
+  height: 100%;
+  width: 100%;
+}
+.chooseText {
+  padding: 100px;
+}
+
+/* Events */
+.events {
+  padding: 100px;
+}
+.cSize {
+  width: 25%;
+}
+.hovering:hover {
+  width: 330px;
+  height: 400px;
+  color: rgb(98, 64, 131);
+  transform: scaleZ();
+  transition: 0.6s ease;
+}
+.hovering a:hover{
+  background: transparent ;
+  color: blue;
+}
+
+/* inline images */
+.imgCont {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+}
+.imgSize {
+  width: 50%;
+  height: 400px;
+}
+
+/* contact */
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+  margin-top: 150px;
+  
+  
+}
+
+
+
+/* footer */
+.footer {
+  text-align: center;
+  padding-top: 50px;
+  color: aliceblue;
+}
+i {
+  padding: 10px;
+  color: aqua;
+}
