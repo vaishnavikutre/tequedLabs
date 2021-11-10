@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(ktm3.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;  
+  
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-right: auto;
+	padding: 10px;
+}
+ol {
+	float: left;
+	margin: 5px;
+	padding: 3vw;
+	font-size: 2vw;
+	font-family: sans-serif;
+  }
+
+ul ol{
+	display: inline-block;
+}
+
+ul ol a{
+	text-decoration: none;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+    display: block;
+	border-radius: 25px;
+	color: whitesmoke;
+	font-weight: bold;
+}
+
+ul ol a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul ol.active a{
+	background-color: #fff;
+	color: #000;
+
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+.container{
+	max-width: 1300px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	font-style: italic;
+	top: 25%;
+	left: 50%;
+	font-size: 2em;
+}
+
+ .para p {
+  color: rgb(255, 255, 255);
+  text-align: right;
+  position: absolute;
+  top: 45vh;
+  font-family: sans-serif;
+  margin-left: 30%;
+  
+  font-size: 30px;
+}
+
+footer {
+  text-align: center;
+	color: black;
+	position:fixed;
+	font-size: 25px;
+	left:0px;
+	bottom:0px;
+	height:30px;
+	width:100%;
+}
