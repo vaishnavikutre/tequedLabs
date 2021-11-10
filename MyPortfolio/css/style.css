@@ -1,0 +1,405 @@
+body{
+	
+    border-bottom: 0px;
+	border-radius: 5px;
+	
+	box-shadow: 0 0 24px 0 rgb(0 0 0 / 25%);
+
+}
+.div{
+	display:flex;
+}
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/img.jpg") top center;
+    background-size: cover;
+   
+  }
+
+  
+  .navbar-toggler-icon {
+      background-color: rgba(255, 255, 255
+      );
+  }
+
+  #hero .hero-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+  }
+
+
+  
+/*css for typed.js*/
+  .text-slider-items {
+	display: none;
+}
+
+.heading {
+	margin-top: 1px;
+	text-align: right;
+	margin-right: 28px;
+}
+
+.heading h1 {
+	color: rgb(245, 250, 245);
+	font-size: 50px;
+	font-family: MV Boli;
+}
+
+.heading h3 {
+	color: black;
+	font-size: 20px;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+#about{
+	
+	width: 100%;
+    height: 100vh;
+    margin-top: -40px;
+	background: url("../img/1.jpg") top center;
+    background-size: cover;
+	
+
+	border: 1px;
+	border-style: solid;
+    border-bottom: 0px;
+	border-radius: 5px;
+	box-shadow: 0 0 24px 0 rgb(0 0 0 / 90%);
+
+	border-color: rgba(0,0,0,0);
+}
+#about h1{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	text-decoration:underline;
+	padding-top:20px;
+}
+
+
+
+
+
+
+
+
+/*about*/
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(100) 1s 1  normal both,
+             blinkTextCursor 500ms steps(100) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+/*about*/
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+
+/*services*/
+.bg {
+	width: 100%;
+	height: 40%;
+	background-color: rgb(189, 188, 188);
+	background-image: url("../img/2.jpg");
+	background-size: cover;
+	margin-top: 20px;
+
+	border: 1px;
+	border-style: solid;
+    border-bottom: 0px;
+	border-radius: 5px;
+	box-shadow: 0 0 24px 0 rgb(0 0 0 / 90%);
+	border-color: rgba(0,0,0,0);
+  }
+  
+  .container1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	color: rgb(42, 34, 34);
+	max-width: 100%;
+	
+  }
+  .center {
+	text-align: center;
+	max-width: 30%;
+	margin-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 50px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 0 24px 0 rgb(0 0 0 / 25%);
+
+  }
+  .center:hover {
+	background-color: rgb(230, 210, 210);
+  }
+  
+
+  /*services*/
+  .skills{
+	  width: 100%;
+	  height: 80vh;
+
+	
+	background: url("../img/1.jpg") top center;
+    background-size: cover;
+
+	border: 1px;
+	border-style: solid;
+    border-bottom: 0px;
+	border-radius: 5px;
+	box-shadow: 0 0 24px 0 rgb(0 0 0 / 90%);
+	border-color: rgba(0,0,0,0);
+  }
+  
+
+  .container2 {
+	display: flex;
+	flex-direction: row;
+	
+  }
+  .one {
+	
+	max-width: 50%;
+	padding: 20px;
+	
+  }
+  #two {
+	padding: 10px;
+	max-width: 50%;
+	margin-left: 10px;
+  }
+
+  
+  .four {
+	
+  
+	padding-top: 50px;
+	padding-bottom: 10px;
+  }
+  #five {
+	margin-top: 40px;
+  }
+  #six {
+	margin-top: 40px;
+  }
+  .space {
+	margin: 20px;
+  }
+
+/*videos*/
+.videos{
+	width: 100%;
+	height: 60vh;
+   margin-top: 20px;
+  
+  background: url("../img/1.jpg") top center;
+  background-size: cover;
+
+  border: 1px;
+	border-style: solid;
+    border-bottom: 0px;
+	border-radius: 5px;
+	box-shadow: 0 0 24px 0 rgb(0 0 0 / 90%);
+	border-color: rgba(0,0,0,0);
+}
+
+.container3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+  }
+
+
+/*contact*/
+.contact{
+	width: 100%;
+	height: 100vh;
+   margin-top: 20px;
+  
+  background: url("../img/1.jpg") top center;
+  background-size: cover;
+
+  border: 1px;
+	border-style: solid;
+    border-bottom: 0px;
+	border-radius: 5px;
+	box-shadow: 0 0 24px 0 rgb(0 0 0 / 90%);
+	border-color: rgba(0,0,0,0);
+}
+
+
+/*media queries*/
+/* On screens that are 992px or less, set the background color to blue */
+
+
+@media screen and (max-width: 992px) {
+	.hero {
+		width: 100%;
+		height: 140vh;
+		background: url("../img/img.jpg") top center;
+		background-size: cover;
+	   
+	  }
+	  #about{
+		background-color:rgb(149, 206, 166);
+		width: 100%;
+		height: 46vh;
+		margin-top: -70px;
+		
+	}
+	.skills{
+		width: 100%;
+		height: 40vh;
+	}
+	.videos{
+		width: 100%;
+		height: 70vh;
+	}  
+	.contact{
+		width: 100%;
+		height: 75vh;
+	}
+	style attribute {
+		font-size: 6px;
+	}
+	element.style{
+		font-size:6px;
+	}
+	input.form-control{
+		width:80px;
+	}
+	div.col{
+		padding:5.6px 7px;
+		width:20px;
+	}
+	textarea{
+		height:50px;
+		width:200px;
+	}
+	
+  }
+  @media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait){
+	.hero {
+		width: 100%;
+		height: 50vh;
+		background: url("../img/img.jpg") top center;
+		background-size: cover;
+	   
+	  }
+	  .videos{
+		  height: 33vh;
+	  }
+	  .contact{
+		  height:97vh;
+	  }
+	  .skills{
+		  height: 34vh;
+	  }
+	  #about{
+		  height: 33vh;
+	  }
+	}
+	@media all and (device-width: 1080px) and (device-height: 2400px) and (orientation:portrait){
+		.hero {
+			width: 100%;
+			height: 30vh;
+			background: url("../img/img.jpg") top center;
+			background-size: cover;
+		   
+		  }
+		  .videos{
+			  height: 18vh;
+		  }
+		  .contact{
+			  height:97vh;
+		  }
+		  .skills{
+			  height: 20vh;
+		  }
+		  #about{
+			  height: 20vh;
+		  }
+		}
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+	.hero {
+		width: 100%;
+		height: 70vh;
+		background: url("../img/img.jpg") top center;
+		background-size: cover;
+	   
+	  }
+	  .videos{
+		  height: 38vh;
+	  }
+	  .contact{
+		  height:87vh;
+	  }
+	}
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+	.hero {
+		width: 100%;
+		height: 120vh;
+		background: url("../img/img.jpg") top center;
+		background-size: cover;
+	   
+	  }
+	  
+	 
+  }
+
+  @media screen and (max-width: 500px) {
+	.hero {
+		width: 100%;
+		height: 100vh;
+		background: url("../img/img.jpg") top center;
+		background-size: cover;
+	   
+	  }
+	 
+	  
+  
+}
